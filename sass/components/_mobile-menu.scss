@@ -47,8 +47,10 @@
     transition-timing-function: $transitionTimingDefault;
   }
 
-  &__icon:hover {
+  &__icon:hover,
+  &__icon:focus {
     fill: $primaryColor;
+    outline: none;
   }
 
   &__icon--close {
