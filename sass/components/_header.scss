@@ -41,6 +41,7 @@
   &__menu-main-link:focus,
   &__menu-main-link:active {
     color: $primaryColor;
+    outline: none;
   }
 
   &__menu-main-link--is-active {
@@ -83,6 +84,7 @@
   &__menu-contact-link:active {
     color: $primaryColor;
     fill: $primaryColor;
+    outline: none;
   }
 
   &__menu-contact-icon {

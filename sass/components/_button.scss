@@ -43,6 +43,7 @@
   &--hero:active {
     background-color: $secondaryColorWhite;
     color: $primaryColor;
+    outline: none;
   }
 
   &--newsletter {
@@ -60,5 +61,6 @@
     background-color: $secondaryColorWhite;
     color: $primaryColor;
     fill: $primaryColor;
+    outline: none;
   }
 }
