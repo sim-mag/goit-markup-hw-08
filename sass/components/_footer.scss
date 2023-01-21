@@ -16,7 +16,7 @@
 
   &__address-list {
     padding-left: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   &__address-list-item {
@@ -24,6 +24,7 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.7;
+    padding-top: 9px;
   }
 
   &__address-list-item-link {
@@ -37,7 +38,7 @@
   &__address-list-item-link:hover,
   &__address-list-item-link:focus,
   &__address-list-item-link:active {
-    color: $secondaryColorWhite;
+    color: $primaryColor;
   }
 
   &__description {
