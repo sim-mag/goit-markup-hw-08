@@ -16,25 +16,16 @@
     <link rel="stylesheet" href="css/main.min.css">
 </head>
   <body>
-    <!------------ HEADER BLOCK ------------>
     <header class="header">
       <div class="header__container container">
         <nav class="header__navigation">
-          <!------------ LOGO BLOCK ------------>
-          <a class="logo" href="index.html" title="Strona główna"
-            >Web<span class="logo--header">Studio</span></a
-          >
-          <!------------ END LOGO BLOCK ------------>
+          <a class="logo" href="index.html" title="Strona główna">Web<span class="logo--header">Studio</span></a>
           <ul class="header__menu-main list">
             <li class="header__menu-main-item">
               <a class="header__menu-main-link" href="index.html">Agencja</a>
             </li>
             <li class="header__menu-main-item">
-              <a
-                class="header__menu-main-link header__menu-main-link--is-active"
-                href="portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header__menu-main-link header__menu-main-link--is-active" href="portfolio.html">Portfolio</a>
             </li>
             <li class="header__menu-main-item">
               <a class="header__menu-main-link" href="#">Kontakt</a>
@@ -43,14 +34,11 @@
         </nav>
         <ul class="header__menu-contact list">
           <li class="header__menu-contact-item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="header__menu-contact-link"
-              ><svg class="header__menu-contact-icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="header__menu-contact-link">
+              <svg class="header__menu-contact-icon" width="16" height="12">
                 <use href="images/icons.svg#icon-contact-envelope"></use>
               </svg>
-              <span>info@devstudio.com</span></a
-            >
+              <span>info@devstudio.com</span></a>
           </li>
           <li class="header__menu-contact-item">
             <a href="tel:+48111111111" class="header__menu-contact-link">
@@ -61,73 +49,39 @@
             </a>
           </li>
         </ul>
-        <!------------ MOBILE MENU BUTTON OPEN ------------>
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg class="mobile-menu__icon" width="40" height="40">
             <use href="images/icons.svg#icon-mobile-menu-open"></use>
           </svg>
         </button>
-        <!------------ END MOBILE MENU BUTTON OPEN ------------>
       </div>
     </header>
-    <!------------ END HEADER BLOCK ------------>
     <main class="container">
-      <!------------ SUBMENU BLOCK ------------>
       <section class="submenu section">
         <ul class="submenu__list">
           <li class="submenu__list-item">
-            <!------------ BUTTON BLOCK ------------>
-            <button type="button" class="button button--submenu">
-              Wszystkie
-            </button>
-            <!------------ END BUTTON BLOCK ------------>
+            <button type="button" class="button button--submenu">Wszystkie</button>
           </li>
           <li class="submenu__list-item">
-            <!------------ BUTTON BLOCK ------------>
             <button type="button" class="button button--submenu">Strony</button>
-            <!------------ END BUTTON BLOCK ------------>
           </li>
           <li class="submenu__list-item">
-            <!------------ BUTTON BLOCK ------------>
-            <button type="button" class="button button--submenu">
-              Aplikacje
-            </button>
-            <!------------ END BUTTON BLOCK ------------>
+            <button type="button" class="button button--submenu">Aplikacje</button>
           </li>
           <li class="submenu__list-item">
-            <!------------ BUTTON BLOCK ------------>
             <button type="button" class="button button--submenu">Design</button>
-            <!------------ END BUTTON BLOCK ------------>
           </li>
           <li class="submenu__list-item">
-            <!------------ BUTTON BLOCK ------------>
-            <button type="button" class="button button--submenu">
-              Marketing
-            </button>
-            <!------------ END BUTTON BLOCK ------------>
+            <button type="button" class="button button--submenu">Marketing</button>
           </li>
         </ul>
       </section>
-      <!------------ END SUBMENU BLOCK ------------>
-      <!------------ PROJECTS BLOCK ------------>
       <section class="projects">
         <ul class="projects__list list">
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Technocrack"
-                  src="images/portfolio1.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio1@2x.jpg 2x,
-                    images/portfolio1@3x.jpg 3x
-                  "
-                />
+                <img alt="Technocrack" src="images/portfolio1.jpg" sizes="370px" srcset="images/portfolio1@2x.jpg 2x, images/portfolio1@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Technocrack jest popularną platformą wykorzystywaną do
@@ -146,15 +100,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Grafika New Orlean vs Golden Star"
-                  src="images/portfolio2.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio2@2x.jpg 2x,
-                    images/portfolio2@3x.jpg 3x
-                  "
-                />
+                <img alt="Grafika New Orlean vs Golden Star" src="images/portfolio2.jpg" sizes="370px" srcset="images/portfolio2@2x.jpg 2x, images/portfolio2@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -165,25 +111,15 @@
                 </div>
               </div>
               <figcaption class="projects__description">
-                <h3 class="projects__description-title">
-                  Grafika New Orlean vs Golden Star
-                </h3>
-                <p class="projects__description-text">Dizajn</p>
+                <h3 class="projects__description-title">Grafika New Orlean vs Golden Star</h3>
+                <p class="projects__description-text">Design</p>
               </figcaption>
             </figure>
           </li>
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Restauracja Seafood"
-                  src="images/portfolio3.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio3@2x.jpg 2x,
-                    images/portfolio3@3x.jpg 3x
-                  "
-                />
+                <img alt="Restauracja Seafood" src="images/portfolio3.jpg" sizes="370px" srcset="images/portfolio3@2x.jpg 2x, images/portfolio3@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -200,15 +136,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Projekt Prime"
-                  src="images/portfolio4.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio4@2x.jpg 2x,
-                    images/portfolio4@3x.jpg 3x
-                  "
-                />
+                <img alt="Projekt Prime" src="images/portfolio4.jpg" sizes="370px" srcset="images/portfolio4@2x.jpg 2x, images/portfolio4@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -226,15 +154,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Projekt Boxes"
-                  src="images/portfolio5.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio5@2x.jpg 2x,
-                    images/portfolio5@3x.jpg 3x
-                  "
-                />
+                <img alt="Projekt Boxes" src="images/portfolio5.jpg" sizes="370px" srcset="images/portfolio5@2x.jpg 2x, images/portfolio5@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -253,15 +173,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Inspiration has no Borders"
-                  src="images/portfolio6.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio6@2x.jpg 2x,
-                    images/portfolio6@3x.jpg 3x
-                  "
-                />
+                <img alt="Inspiration has no Borders" src="images/portfolio6.jpg" sizes="370px" srcset="images/portfolio6@2x.jpg 2x, images/portfolio6@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -273,9 +185,7 @@
                 </div>
               </div>
               <figcaption class="projects__description">
-                <h3 class="projects__description-title">
-                  Inspiration has no Borders
-                </h3>
+                <h3 class="projects__description-title">Inspiration has no Borders</h3>
                 <p class="projects__description-text">Strona internetowa</p>
               </figcaption>
             </figure>
@@ -283,15 +193,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Magazyn Limited Edition"
-                  src="images/portfolio7.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio7@2x.jpg 2x,
-                    images/portfolio7@3x.jpg 3x
-                  "
-                />
+                <img alt="Magazyn Limited Edition"nsrc="images/portfolio7.jpg" sizes="370px" srcset="images/portfolio7@2x.jpg 2x, images/portfolio7@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -301,25 +203,15 @@
                 </div>
               </div>
               <figcaption class="projects__description">
-                <h3 class="projects__description-title">
-                  Magazyn Limited Edition
-                </h3>
-                <p class="projects__description-text">Dizajn</p>
+                <h3 class="projects__description-title">Magazyn Limited Edition</h3>
+                <p class="projects__description-text">Design</p>
               </figcaption>
             </figure>
           </li>
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Projekt LAB"
-                  src="images/portfolio8.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio8@2x.jpg 2x,
-                    images/portfolio8@3x.jpg 3x
-                  "
-                />
+                <img alt="Projekt LAB" src="images/portfolio8.jpg" sizes="370px" srcset="images/portfolio8@2x.jpg 2x, images/portfolio8@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -338,15 +230,7 @@
           <li class="projects__list-item">
             <figure>
               <div class="projects__photo">
-                <img
-                  alt="Growing Business"
-                  src="images/portfolio9.jpg"
-                  sizes="370px"
-                  srcset="
-                    images/portfolio9@2x.jpg 2x,
-                    images/portfolio9@3x.jpg 3x
-                  "
-                />
+                <img alt="Growing Business" src="images/portfolio9.jpg" sizes="370px" srcset="images/portfolio9@2x.jpg 2x, images/portfolio9@3x.jpg 3x"/>
                 <div class="projects__photo-overlay">
                   <p class="projects__photo-overlay-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -364,17 +248,13 @@
           </li>
         </ul>
       </section>
-      <!------------ END PROJECTS BLOCK ------------>
     </main>
-    <!------------ FOOTER BLOCK ------------>
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__address">
-          <!------------ LOGO BLOCK ------------>
           <a class="logo" href="index.html" title="Strona główna"
             >Web<span class="logo--footer">Studio</span></a
           >
-          <!------------ END LOGO BLOCK ------------>
           <address>
             <ul class="footer__address-list list">
               <li class="footer__address-list-item">
@@ -432,20 +312,16 @@
                 class="footer__newsletter-form-input"
                 placeholder="E-mail"
             /></label>
-            <!------------ BUTTON BLOCK ------------>
             <button type="submit" class="button button--newsletter">
               <span>Zapisz się</span>
               <svg class="footer__newsletter-icon" width="24" height="24">
                 <use href="images/icons.svg#icon-newsletter"></use>
               </svg>
             </button>
-            <!------------ END BUTTON BLOCK ------------>
           </form>
         </div>
       </div>
     </footer>
-    <!------------ END FOOTER BLOCK ------------>
-    <!------------ MOBILE MENU BLOCK ------------>
     <div class="mobile-menu js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
@@ -503,6 +379,5 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./js/mobile-menu.js"></script>
-    <!------------ END MOBILE MENU BLOCK ------------>
   </body>
 </html>
