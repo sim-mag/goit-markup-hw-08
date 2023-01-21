@@ -15,28 +15,18 @@
     <!-- my styles -->
     <link rel="stylesheet" href="css/main.min.css">
 </head>
+
   <body>
-    <!------------ HEADER BLOCK ------------>
     <header class="header">
       <div class="header__container container">
         <nav class="header__navigation">
-          <!------------ LOGO BLOCK ------------>
-          <a class="logo" href="index.html" title="Strona główna"
-            >Web<span class="logo--header">Studio</span></a
-          >
-          <!------------ END LOGO BLOCK ------------>
+          <a class="logo" href="index.html" title="Strona główna">Web<span class="logo--header">Studio</span></a>
           <ul class="header__menu-main list">
             <li class="header__menu-main-item">
-              <a
-                class="header__menu-main-link header__menu-main-link--is-active"
-                href="index.html"
-                >Agencja</a
-              >
+              <a class="header__menu-main-link header__menu-main-link--is-active" href="index.html">Agencja</a>
             </li>
             <li class="header__menu-main-item">
-              <a class="header__menu-main-link header__menu-main-link--non-active" href="portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header__menu-main-link header__menu-main-link--non-active" href="portfolio.html">Portfolio</a>
             </li>
             <li class="header__menu-main-item">
               <a class="header__menu-main-link" href="#">Kontakt</a>
@@ -45,14 +35,12 @@
         </nav>
         <ul class="header__menu-contact list">
           <li class="header__menu-contact-item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="header__menu-contact-link"
-              ><svg class="header__menu-contact-icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="header__menu-contact-link">
+              <svg class="header__menu-contact-icon" width="16" height="12">
                 <use href="images/icons.svg#icon-contact-envelope"></use>
               </svg>
-              <span>info@devstudio.com</span></a
-            >
+              <span>info@devstudio.com</span>
+            </a>
           </li>
           <li class="header__menu-contact-item">
             <a href="tel:+48111111111" class="header__menu-contact-link">
@@ -63,36 +51,21 @@
             </a>
           </li>
         </ul>
-        <!------------ MOBILE MENU BUTTON OPEN ------------>
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg class="mobile-menu__icon" width="40" height="40">
             <use href="images/icons.svg#icon-mobile-menu-open"></use>
           </svg>
         </button>
-        <!------------ END MOBILE MENU BUTTON OPEN ------------>
       </div>
     </header>
-    <!------------ END HEADER BLOCK ------------>
+
     <main>
-      <!------------ HERO BLOCK ------------>
       <section class="hero section">
         <div class="hero__content">
-          <h1 class="hero__title">
-            Efektywne rozwiązania<br />dla waszego biznesu
-          </h1>
-          <!------------ BUTTON BLOCK ------------>
-          <button type="button" class="button button--hero" data-modal-open>
-            Zamów usługę
-          </button>
-          <!------------ END BUTTON BLOCK ------------>
+          <h1 class="hero__title">Efektywne rozwiązania<br/>dla waszego biznesu</h1>
+          <button type="button" class="button button--hero" data-modal-open>Zamów usługę</button>
         </div>
       </section>
-      <!------------ END HERO BLOCK ------------>
-      <!------------ ADVANTAGES BLOCK ------------>
       <section class="advantages section container">
         <ul class="advantages__list list">
           <li class="advantages__list-item">
@@ -149,55 +122,29 @@
           </li>
         </ul>
       </section>
-      <!------------ END ADVANTAGES BLOCK ------------>
-      <!------------ OFFER BLOCK ------------>
       <section class="offer section container">
         <h2 class="section-title">Czym się zajmujemy</h2>
         <ul class="offer__list list">
           <li class="offer__list-item">
-            <img
-              class="offer__image"
-              alt="Aplikacje komputerowe"
-              src="images/work1.jpg"
-              sizes="370px"
-              srcset="images/work1@2x.jpg 2x, images/work1@3x.jpg 3x"
-            />
+            <img class="offer__image" alt="Aplikacje komputerowe" src="images/work1.jpg" sizes="370px" srcset="images/work1@2x.jpg 2x, images/work1@3x.jpg 3x"/>
             <p class="offer__description">Aplikacje komputerowe</p>
           </li>
           <li class="offer__list-item">
-            <img
-              class="offer__image"
-              alt="Aplikacje mobilne"
-              src="images/work2.jpg"
-              sizes="370px"
-              srcset="images/work2@2x.jpg 2x, images/work2@3x.jpg 3x"
-            />
+            <img class="offer__image" alt="Aplikacje mobilne" src="images/work2.jpg" sizes="370px" srcset="images/work2@2x.jpg 2x, images/work2@3x.jpg 3x"/>
             <p class="offer__description">Aplikacje mobilne</p>
           </li>
           <li class="offer__list-item">
-            <img
-              class="offer__image"
-              alt="Rozwiązania graficzne"
-              src="images/work3.jpg"
-              sizes="370px"
-              srcset="images/work3@2x.jpg 2x, images/work3@3x.jpg 3x"
-            />
+            <img class="offer__image" alt="Rozwiązania graficzne" src="images/work3.jpg" sizes="370px" srcset="images/work3@2x.jpg 2x, images/work3@3x.jpg 3x"/>
             <p class="offer__description">Rozwiązania graficzne</p>
           </li>
         </ul>
       </section>
-      <!------------ END OFFER BLOCK ------------>
-      <!------------ TEAM BLOCK BLOCK ------------>
       <section class="team section">
         <h2 class="section-title">Nasz zespół</h2>
         <ul class="team__list list container">
           <li class="team__list-item">
             <figure class="team__photo">
-              <img
-                alt="John Doe"
-                src="images/team1.jpg"
-                srcset="images/team1@2x.jpg 2x, images/team1@3x.jpg 3x"
-              />
+              <img alt="John Doe" src="images/team1.jpg" srcset="images/team1@2x.jpg 2x, images/team1@3x.jpg 3x"/>
               <figcaption class="team__description">
                 <h3 class="team__description-name">John Doe</h3>
                 <p class="team__description-text">Product Designer</p>
@@ -220,13 +167,9 @@
           </li>
           <li class="team__list-item">
             <figure class="team__photo">
-              <img
-                alt="John Doe"
-                src="images/team2.jpg"
-                srcset="images/team2@2x.jpg 2x, images/team2@3x.jpg 3x"
-              />
+              <img alt="Jane Doe" src="images/team2.jpg" srcset="images/team2@2x.jpg 2x, images/team2@3x.jpg 3x"/>
               <figcaption class="team__description">
-                <h3 class="team__description-name">John Doe</h3>
+                <h3 class="team__description-name">Jane Doe</h3>
                 <p class="team__description-text">Frontend Developer</p>
                 <div class="team__description-socials">
                   <svg class="team__description-icon" width="44" height="44">
@@ -247,11 +190,7 @@
           </li>
           <li class="team__list-item">
             <figure class="team__photo">
-              <img
-                alt="John Doe"
-                src="images/team3.jpg"
-                srcset="images/team3@2x.jpg 2x, images/team3@3x.jpg 3x"
-              />
+              <img alt="John Doe" src="images/team3.jpg" srcset="images/team3@2x.jpg 2x, images/team3@3x.jpg 3x"/>
               <figcaption class="team__description">
                 <h3 class="team__description-name">John Doe</h3>
                 <p class="team__description-text">Marketing</p>
@@ -274,11 +213,7 @@
           </li>
           <li class="team__list-item">
             <figure class="team__photo">
-              <img
-                alt="John Doe"
-                src="images/team4.jpg"
-                srcset="images/team4@2x.jpg 2x, images/team4@3x.jpg 3x"
-              />
+              <img alt="John Doe" src="images/team4.jpg" srcset="images/team4@2x.jpg 2x, images/team4@3x.jpg 3x"/>
               <figcaption class="team__description">
                 <h3 class="team__description-name">John Doe</h3>
                 <p class="team__description-text">UI Designer</p>
@@ -301,8 +236,6 @@
           </li>
         </ul>
       </section>
-      <!------------ END TEAM BLOCK ------------>
-      <!------------ CLIENTS BLOCK ------------>
       <section class="clients section container">
         <h2 class="section-title">Nasi klienci</h2>
         <ul class="clients__list list">
@@ -338,35 +271,19 @@
           </li>
         </ul>
       </section>
-      <!------------ END CLIENTS BLOCK ------------>
     </main>
-    <!------------ FOOTER BLOCK ------------>
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__address">
-          <!------------ LOGO BLOCK ------------>
-          <a class="logo" href="index.html" title="Strona główna"
-            >Web<span class="logo--footer">Studio</span></a
-          >
-          <!------------ END LOGO BLOCK ------------>
+          <a class="logo" href="index.html" title="Strona główna">Web<span class="logo--footer">Studio</span></a>
           <address>
             <ul class="footer__address-list list">
+              <li class="footer__address-list-item">m. Warszawa, Aleje Jerozolimskie 21</li>
               <li class="footer__address-list-item">
-                m. Warszawa, Aleje Jerozolimskie 21
+                <a href="mailto:info@example.com" class="footer__address-list-item-link">info@example.com</a>
               </li>
               <li class="footer__address-list-item">
-                <a
-                  href="mailto:info@example.com"
-                  class="footer__address-list-item-link"
-                  >info@example.com</a
-                >
-              </li>
-              <li class="footer__address-list-item">
-                <a
-                  href="tel:+48111111111"
-                  class="footer__address-list-item-link"
-                  >+48 111 111 111</a
-                >
+                <a href="tel:+48111111111" class="footer__address-list-item-link">+48 111 111 111</a>
               </li>
             </ul>
           </address>
@@ -399,34 +316,23 @@
         <div class="footer__newsletter">
           <p class="footer__description">Zapisz się do newslettera</p>
           <form name="newsletter" class="footer__newsletter-form">
-            <label
-              ><input
-                type="email"
-                name="newsletter-email"
-                class="footer__newsletter-form-input"
-                placeholder="E-mail"
-            /></label>
-            <!------------ BUTTON BLOCK ------------>
+            <label>
+              <input type="email" name="newsletter-email" class="footer__newsletter-form-input" placeholder="E-mail"/>
+          </label>
             <button type="submit" class="button button--newsletter">
               <span>Zapisz się</span>
               <svg class="footer__newsletter-icon" width="24" height="24">
                 <use href="images/icons.svg#icon-newsletter"></use>
               </svg>
             </button>
-            <!------------ END BUTTON BLOCK ------------>
           </form>
         </div>
       </div>
     </footer>
-    <!------------ END FOOTER BLOCK ------------>
-    <!------------ MOBILE MENU BLOCK ------------>
+    <!-- mobile menu - burger -->
     <div class="mobile-menu js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <svg
-          class="mobile-menu__icon mobile-menu__icon--close"
-          width="40"
-          height="40"
-        >
+        <svg class="mobile-menu__icon mobile-menu__icon--close" width="40" height="40">
           <use href="images/icons.svg#icon-mobile-menu-close"></use>
         </svg>
       </button>
@@ -444,14 +350,10 @@
         </ul>
         <div>
           <p class="mobile-menu__tel">
-            <a href="tel:+48111111111" class="mobile-menu__tel-link"
-              >+48 111 111 111</a
-            >
+            <a href="tel:+48111111111" class="mobile-menu__tel-link">+48 111 111 111</a>
           </p>
           <p class="mobile-menu__mail">
-            <a href="mailto:info@devstudio.com" class="mobile-menu__mail-link"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="mobile-menu__mail-link">info@devstudio.com</a>
           </p>
           <ul class="mobile-menu__socials">
             <li class="mobile-menu__socials-item">
@@ -470,15 +372,9 @@
         </div>
       </div>
     </div>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
     <script defer src="./js/mobile-menu.js"></script>
-    <!------------ END MOBILE MENU BLOCK ------------>
-    <!------------ MODAL BLOCK ------------>
+<!-- modal form -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__close-button" data-modal-close>
@@ -492,48 +388,36 @@
             <svg class="modal__form-icon" width="20" height="20">
               <use href="images/icons.svg#icon-modal-name"></use>
             </svg>
-            Imię
+            <p>Imię</p>
             <input type="text" name="contact-name" class="modal__form-input" />
           </label>
           <label class="modal__form-label">
             <svg class="modal__form-icon" width="20" height="20">
               <use href="images/icons.svg#icon-modal-phone"></use>
             </svg>
-            Telefon
+            <p>Telefon</p>
             <input type="tel" name="contact-phone" class="modal__form-input" />
           </label>
           <label class="modal__form-label">
             <svg class="modal__form-icon" width="20" height="20">
               <use href="images/icons.svg#icon-modal-email"></use>
             </svg>
-            Email
-            <input
-              type="email"
-              name="contact-email"
-              class="modal__form-input"
-            />
+            <p>E-mail</p>
+            <input type="email" name="contact-email" class="modal__form-input"/>
           </label>
-          <label class="modal__form-label"
-            >Komentarz
-            <textarea
-              name="contact-comment"
-              placeholder="Wprowadź tekst"
-              class="modal__form-input modal__form-textarea"
-            ></textarea>
+          <label class="modal__form-label">Komentarz
+            <textarea name="contact-comment" placeholder="Wprowadź tekst" class="modal__form-input modal__form-textarea"></textarea>
           </label>
           <label class="modal__form-check">
             <input type="checkbox" name="accept-rules" value="accept-rules" />
             Oświadczam iż akceptuję
             <a href="#" target="_top" class="modal__link">Regulamin</a> i
-            <a href="#" target="_top" class="modal__link"
-              >Politykę Prywatności</a
-            >.
+            <a href="#" target="_top" class="modal__link">Politykę Prywatności</a>.
           </label>
           <button type="submit" class="modal__form-btn">Wyślij</button>
         </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <!------------ END MODAL BLOCK ------------>
   </body>
 </html>
