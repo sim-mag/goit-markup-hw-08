@@ -12,6 +12,10 @@
   &--footer {
     color: $secondaryColorWhite;
   }
+
+  &:focus {
+    outline-color: $primaryColor;
+  }
 }
 
 @media screen and (min-width: $breakpointDesktopStart) {

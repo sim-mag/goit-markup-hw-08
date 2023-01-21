@@ -22,9 +22,11 @@
     transition-timing-function: $transitionTimingDefault;
   }
 
-  &__list-item:hover {
+  &__list-item:hover,
+  &__list-item:focus {
     border: 1px solid $primaryColor;
     cursor: pointer;
+    outline: none;
   }
 
   &__icon {
@@ -34,7 +36,8 @@
     transition-timing-function: $transitionTimingDefault;
   }
 
-  &__list-item:hover &__icon {
+  &__list-item:hover &__icon, 
+  &__list-item:focus &__icon {
     fill: $primaryColor;
   }
 }

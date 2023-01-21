@@ -39,6 +39,7 @@
   &__address-list-item-link:focus,
   &__address-list-item-link:active {
     color: $primaryColor;
+    outline: none;
   }
 
   &__description {
@@ -74,6 +75,7 @@
   &__socials-icon:active {
     background-color: $primaryColor;
     cursor: pointer;
+    outline: none;
   }
 
   &__newsletter {
