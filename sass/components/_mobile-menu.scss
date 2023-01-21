@@ -89,6 +89,10 @@
     font-weight: 500;
     color: $secondaryColorBlack;
     text-decoration: none;
+
+    &--active {
+      color: $primaryColor;
+    }
   }
 
   &__link:hover {
