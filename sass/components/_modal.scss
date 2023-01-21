@@ -156,8 +156,6 @@
   }
 }
 
-/* ---------- RESPONSIVE DESKTOP ---------- */
-
 @media screen and (min-width: $breakpointDesktopStart) {
   .modal {
     max-width: 528px;
@@ -171,5 +169,3 @@
     margin: 30px 120px;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */

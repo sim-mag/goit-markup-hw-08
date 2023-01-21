@@ -39,17 +39,11 @@
   }
 }
 
-/* ---------- RESPONSIVE TABLET ---------- */
-
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .clients__list-item {
     flex-basis: calc((100% - 40px) / 3);
   }
 }
-
-/* ---------- END RESPONSIVE TABLET ---------- */
-
-/* ---------- RESPONSIVE DESKTOP ---------- */
 
 @media screen and (min-width: $breakpointDesktopStart) {
   .clients {
@@ -64,5 +58,3 @@
     flex-basis: auto;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */

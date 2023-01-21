@@ -32,8 +32,6 @@
   }
 }
 
-/* ---------- RESPONSIVE TABLET ---------- */
-
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .advantages__title {
     text-align: left;
@@ -43,10 +41,6 @@
     flex-basis: calc((100% - 30px) / 2);
   }
 }
-
-/* ---------- END RESPONSIVE TABLET ---------- */
-
-/* ---------- RESPONSIVE DESKTOP ---------- */
 
 @media screen and (min-width: $breakpointDesktopStart) {
   .advantages {
@@ -61,5 +55,3 @@
     text-align: left;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */

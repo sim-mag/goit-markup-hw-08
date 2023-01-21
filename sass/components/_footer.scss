@@ -110,8 +110,6 @@
   }
 }
 
-/* ---------- RESPONSIVE TABLET ---------- */
-
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .footer__container {
     flex-direction: row;
@@ -122,10 +120,6 @@
     width: 450px;
   }
 }
-
-/* ---------- END RESPONSIVE TABLET ---------- */
-
-/* ---------- RESPONSIVE DESKTOP ---------- */
 
 @media screen and (min-width: $breakpointDesktopStart) {
   .footer__container {
@@ -154,5 +148,3 @@
     width: 358px;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */

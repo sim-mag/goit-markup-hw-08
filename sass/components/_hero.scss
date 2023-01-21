@@ -52,17 +52,11 @@
   }
 }
 
-/* ---------- RESPONSIVE TABLET ---------- */
-
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .hero {
     padding-top: 80px;
   }
 }
-
-/* ---------- END RESPONSIVE TABLET ---------- */
-
-/* ---------- RESPONSIVE DESKTOP ---------- */
 
 @media screen and (min-width: $breakpointDesktopStart) {
   .hero {
@@ -75,5 +69,3 @@
     line-height: 1.4;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */
