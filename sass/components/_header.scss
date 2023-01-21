@@ -46,35 +46,17 @@
   &__menu-main-link--is-active {
     position: relative;
     color: $primaryColor;
-
-    &::after {
-      content: "";
-      width: 100%;
-      height: 4px;
-      background-color: $primaryColor;
-      border-radius: 2px;
-      font-size: 0;
-      display: block;
-      position: absolute;
-      top: 45px;
-      left: 5px;
-    }
   }
 
-  &__menu-main-link--non-active {
-    &::after {
-      content: "";
-      width: 100%;
-      height: 4px;
-      background-color: $primaryColor;
-      border-radius: 2px;
-      font-size: 0;
-      display: block;
-      position: absolute;
-      top: 45px;
-      left: 5px;
-      display: none;
-    }
+  &__menu-main-link--is-active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 41px;
+    width: 100%;
+    height: 4px;
+    background-color: $primaryColor;
+    border-radius: 2px;
   }
 
   &__menu-contact {
@@ -106,13 +88,6 @@
   &__menu-contact-icon {
     margin-right: 10px;
   }
-}
-
-.header__menu-main-link--is-active:hover,
-.header__menu-main-link--non-active:hover {
-  transition: background-color 250ms $defaultTransitionDuration
-    $defaultTransitionTiming;
-  display: block;
 }
 
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
