@@ -37,12 +37,8 @@ img {
   height: auto;
 }
 
-/* ---------- RESPONSIVE DESKTOP ---------- */
-
 @media screen and (min-width: $breakpointDesktopStart) {
   .section {
     padding-bottom: 94px;
   }
 }
-
-/* ---------- END RESPONSIVE DESKTOP ---------- */
