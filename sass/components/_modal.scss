@@ -58,8 +58,8 @@
   }
 
   &__close-icon:hover {
-    transform: rotate(540deg);
-    fill: red;
+    transform: rotate(360deg);
+    fill: $primaryColor;
   }
 
   &__title {
