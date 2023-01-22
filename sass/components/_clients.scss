@@ -32,7 +32,7 @@
   &__icon {
     fill: $tertiaryColorLight;
     transition-property: fill;
-    transition-duration: 2$transitionDurationDefault;
+    transition-duration: $transitionDurationDefault;
     transition-timing-function: $transitionTimingDefault;
   }
 
