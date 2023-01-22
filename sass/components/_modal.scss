@@ -145,32 +145,37 @@
       box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
     }
   }
-
+//na label
   &__form-check {
-    display: block;
-    margin-top: 20px;
-    align-items: center;
-    font-size: 12px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    line-height: 1.8;
-    color: $tertiaryColorGrey;
+    color: #666;
     position: relative;
-  
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
   }
-
+// na input
   &__check-input {
     margin: 0;
-    appearance: none;
-    border: 2px solid #000;
+    border: 2px solid $secondaryColorBlack;
     background-color: #fff;
     border-radius: 2px;
     width: 16px;
     height: 15px;
+    margin-right: 8px;
   }
 
   &__check-icon {
     position: absolute;
-    opacity: 0;
+    border: 2px solid $secondaryColorBlack;
+    fill: #fff;
+    background-color: #fff;
+    border-radius: 2px;
+    opacity: 1;
     width: 16px;
     height: 15px;
   }
