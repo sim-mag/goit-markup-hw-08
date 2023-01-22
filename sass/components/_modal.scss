@@ -149,16 +149,43 @@
   &__form-check {
     display: block;
     margin-top: 20px;
-    text-align: center;
+    align-items: center;
     font-size: 12px;
     letter-spacing: 0.03em;
     line-height: 1.8;
     color: $tertiaryColorGrey;
+    position: relative;
+  
+  }
+
+  &__check-input {
+    margin: 0;
+    appearance: none;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 16px;
+    height: 15px;
+  }
+
+  &__check-icon {
+    position: absolute;
+    opacity: 0;
+    width: 16px;
+    height: 15px;
   }
 
   &__link {
     color: $primaryColor;
   }
+}
+
+.modal__check-input:checked + .modal__check-icon {
+  opacity: 1;
+  fill: #fff;
+  border: 2px solid $primaryColor;
+  border-radius: 2px;
+  background-color: $primaryColor;
 }
 
 @media screen and (min-width: $breakpointDesktopStart) {
