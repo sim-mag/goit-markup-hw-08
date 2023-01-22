@@ -42,6 +42,17 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .clients__list {
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
 @media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
   .clients__list-item {
     flex-basis: calc((100% - 40px) / 3);
